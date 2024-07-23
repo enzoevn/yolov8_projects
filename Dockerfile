@@ -11,6 +11,7 @@ RUN apt-get update && \
 
 # Install ultralytics
 RUN pip install ultralytics
+RUN pip install opencv-python --upgrade
 #RUN pip install minio
 
 USER enzo
