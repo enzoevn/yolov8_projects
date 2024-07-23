@@ -4,6 +4,9 @@
 ### Datasets ###
 Datasets/
 
+### YoloV8 ###
+*weights/
+
 ### System ###
 .cache/
 .config/

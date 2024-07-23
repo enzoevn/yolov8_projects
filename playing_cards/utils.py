@@ -14,7 +14,7 @@ def visualize(result_dir):
     them in either a 1x1 grid or 2x2 grid.
     """
     plt.figure(figsize=(15, 12))
-    image_names = glob.glob(os.path.join(result_dir, '*.png'))
+    image_names = glob.glob(os.path.join(result_dir, '*.jpg'))
     if len(image_names) < 4:
         for i, image_name in enumerate(image_names):
             image = plt.imread(image_name)
